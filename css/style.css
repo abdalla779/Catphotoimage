@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../pics/img.jpeg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color:darkcyan;
+    padding: 5px 20px;
+    border: 1px transparent rgb(32, 140, 155);
+    transition: 0.5s ease;
+    border-radius: 3px;
+}
+ul li a:hover {
+    background-color: darkorange;
+    color:darkorchid;
+}
+ul li.active a {
+    background-color: darkorange;
+    color:darkorchid;
+}
+.logo h1{
+    float:left;
+    color:deeppink;
+    width: 150px;
+    height: auto;
+    margin: 15px 10px;
+    font-family: cursive;
+}
+.main {
+    max-width: 1400px;
+    margin: auto;
+}
+.title {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1 {
+    color: green;
+}
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+.btn {
+    border: 1px solid rgb(32, 140, 155);
+    text-decoration: none;
+    color:violet;
+    padding: 8px 25px;
+    transition: 0.6s ease;
+}
+.btn:hover {
+    background-color: darkorange;
+    color:rgb(177, 45, 96);
+}
+.login-form {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(184, 138, 138);
+}
+.login-form h1 {
+    font-size: 40px;
+    color: rgb(122, 119, 71);
+    font-family: fantasy;
+    text-align: center;
+    margin: 10px 0;
+}
+.login-form hr {
+    margin-bottom: 15px;
+}
+.login-form p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.login-form input {
+    font-size: 16px;
+    width: 100%;
+    padding: 7px 7px;
+    border: 0;
+    outline: none;
+    border-radius: 3px;
+}
+.login-form small {
+    font-size: 15px;
+}
+.login-form small a {
+    color: #1e90ff;
+}
+.btn-submit {
+    border: 1px solid rgb(32, 140, 155);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color:violet;
+    padding: 8px 20px;
+    margin: 20px 0;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    border: 0;
+}
+.btn-submit:hover {
+    background-color: darkorange;
+    color:rgb(177, 45, 96);
+}
+.container {
+    width: 1300px;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.container h1 {
+    font-size: 40px;
+    color: rgb(122, 119, 71);
+    font-family: fantasy;
+    text-align: center;
+    margin: 10px 0;
+}
+.container hr {
+    margin-bottom: 15px;
+}
+.row {
+    width: 100%;
+    border: 2px solid #fff;
+}
+.row-pic {
+    text-items: center;
+    margin:10px auto;
+    display: inline-block;
+}
+.row-pic img {
+    
+}
